@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <title>Bill Tracker App</title>
+</head>
+<body>
+    <div id="showcase">
+        <h1>Bill Tracker App</h1>
+        <img src="https://i.pinimg.com/originals/f5/77/97/f577974bda4fbaa386b0d0ec5ef5fb78.jpg">
+    </div>
+    <hr>
+
+    <div class="container">
+        <h2>Add Bill</h2>
+        <form id="bill-form">
+            <div>
+                <label for="bill-name">Bill</label>
+                <input type="text" id="bill-name" required>
+            </div>
+            <div>
+                <label for="amount">$ Amount</label>
+                <input type="number" id="amount" step="any" required>
+            </div>
+            <div>
+                <label for="due-date">Due Date</label>
+                <input type="date" id="due-date" required>
+            </div>
+            <input type="submit" id="submit-btn" value="Submit">
+        </form>
+        <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Bill</th>
+                <th>$ Amount</th>
+                <th>Due Date</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="bill-list"></tbody>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
