@@ -1,0 +1,33 @@
+body {
+    background-color:#002244;
+}
+
+h1, h2, label, table {
+    color: #B0B7BC;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paid-off {
+    font-size: 2rem;
+}
+
+#submit-btn {
+    background-color: #C60C30;
+    color: white;
+    margin-top: 5px;
+    border: 2px solid #B0B7BC;
+    
+}
+#submit-btn:hover{
+    background-color: #9e0625;
+    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
